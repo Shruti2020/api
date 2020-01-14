@@ -46,7 +46,7 @@ func main() {
 
 // Health check. Polling / outputs "ok"
 func health(w http.ResponseWriter, r *http.Request) {
-	json.NewEncoder(w).Encode("ok")
+	json.NewEncoder(w).Encode("Hello Shruti!")
 }
 
 // GetUsers will get all the users from the array.
